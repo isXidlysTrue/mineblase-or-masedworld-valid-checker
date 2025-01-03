@@ -3,7 +3,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const fs = require("fs")
 
 
-const TELEGRAM_TOKEN = '7627646609:AAFkKKp-8vnUAuKVWtQ5u9fGjnyGkHL6t-I';
+const TELEGRAM_TOKEN = 'Тут замініть на свій токен узятий з @botfather';
 const settings = JSON.parse(fs.readFileSync('config.json', 'utf-8'))
 let standartpass = settings.standartpass;
 let autochangepass = settings.autochangepass
